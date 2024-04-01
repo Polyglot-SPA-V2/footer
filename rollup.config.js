@@ -9,12 +9,12 @@ import copy from "rollup-plugin-copy-assets";
 const production = !process.env.ROLLUP_WATCH;
 
 export default {
-  input: "src/Polyglot-Spa-V2-footer.js",
+  input: "src/polyglot-ppa-v2-footer.js",
   output: {
     sourcemap: true,
     format: "system",
     name: null, // ensure anonymous System.register
-    file: "dist/Polyglot-Spa-V2-footer.js",
+    file: "dist/polyglot-spa-v2-footer.js",
   },
   plugins: [
     postcss({

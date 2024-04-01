@@ -1,5 +1,5 @@
 {
-  "name": "@Polyglot-Spa-V2/footer",
+  "name": "@polyglot-spa-v2/footer",
   "scripts": {
     "build": "concurrently npm:build:*",
     "build:rollup": "rollup -c",
