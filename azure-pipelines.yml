@@ -5,6 +5,8 @@ trigger:
 
 stages:
   - stage: Build
+    variables:
+      CI: true
     pool:
       vmImage: "windows-latest"
     jobs:
