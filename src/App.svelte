@@ -1,6 +1,6 @@
 <script>
-    //let bananaSrc = "https://polyglot-spa-footer.s3.us-east-2.amazonaws.com/assets/images/bananas.png"
-    let bananaSrc = "http://localhost:5002/assets/images/bananas.png"
+    let bananaSrc = "https://pgsv2storageaccount.blob.core.windows.net/pgs-v2-footer/assets/images/bananas.png"
+    //let bananaSrc = "http://localhost:5002/assets/images/bananas.png"
 </script>
 
 <style>
