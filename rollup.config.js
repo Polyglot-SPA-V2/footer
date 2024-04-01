@@ -9,7 +9,7 @@ import copy from "rollup-plugin-copy-assets";
 const production = !process.env.ROLLUP_WATCH;
 
 export default {
-  input: "src/polyglot-ppa-v2-footer.js",
+  input: "src/polyglot-spa-v2-footer.js",
   output: {
     sourcemap: true,
     format: "system",
